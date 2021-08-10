@@ -1,0 +1,69 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Playstation",
+            "brand": "Sony",
+            "price": "1500",
+            "available": true,
+            "weight": 1.6,
+            "options": [
+                {
+                    "color": "black",
+                    "storage": [
+                        "250",
+                        "500"
+                    ],
+                    "quantity": 0
+                },
+                {
+                    "color": "white",
+                    "storage": [
+                        "250",
+                        "500"
+                    ],
+                    "quantity": 12
+                },
+                {
+                    "color": "red",
+                    "storage": [
+                        "500"
+                    ],
+                    "quantity": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "macbook pro",
+            "brand": "apple",
+            "price": "3700",
+            "available": false,
+            "weight": 3.9,
+            "options": [
+                {
+                    "color": "black",
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Gamin mouse",
+            "brand": "apple",
+            "price": "100",
+            "available": true,
+            "weight": 0.8,
+            "options": [
+                {
+                    "color": "black",
+                    "quantity": 3
+                },
+                {
+                    "color": "red",
+                    "quantity": 9
+                }
+            ]
+        }
+    ]
+}

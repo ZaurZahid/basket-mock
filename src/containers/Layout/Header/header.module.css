@@ -1,0 +1,33 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #959595;
+  margin-bottom: 50px;
+}
+
+.Header nav ul {
+  display: flex;
+  width: 100%;
+}
+
+.Header nav ul li {
+  list-style: none;
+}
+
+.Header nav ul li.active {
+  border-bottom: 2px solid #201e1e;
+}
+
+.Header nav ul li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.Header nav ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #a79999;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
